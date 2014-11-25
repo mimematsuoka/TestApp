@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    int number;
+    IBOutlet UILabel *label;
+}
+
+-(IBAction)puls;
+
+-(IBAction)minus;
 
 @end

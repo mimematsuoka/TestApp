@@ -26,4 +26,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)plus{
+    number=number+1;
+    label.text=[NSString stringWithFormat:@"%d",number];
+}
+
+-(IBAction)minus{
+    number=number-1;
+    label.text=[NSString stringWithFormat:@"%d",number];
+}
+
 @end
